@@ -14,9 +14,14 @@ public class Lab24d
 	{
 		Scanner file = new Scanner (new File("lab24d.dat"));
 
+		int x = file.nextLine();
+		file.nextLine();
 
+		Scanner game = new Scanner (file.nextLine());
 
+		//Read how many times you should read
 
+		//TicTacToe only wants this: file.nextLine
 
 
 
